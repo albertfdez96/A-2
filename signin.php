@@ -32,7 +32,7 @@ $conn = new mysqli("localhost", "aolle_albert", "abcd1234", "aolle_A-2");
             header('Location:todolist.php');
 
     }else{
-      echo "</br>no";
+      echo "</br>La contraseña o el email no son correctos";
     }
 
 }
